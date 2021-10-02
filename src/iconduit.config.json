@@ -10,13 +10,14 @@
     "brand": "hsl(350, 100%, 85%)"
   },
   "targets": {
-    "installer": [],
-    "os": []
+    "installer": []
   },
   "outputs": {
     "exclude": [
+      "appleTouchStartup",
       "browserconfigXml",
       "facebookAppIcon",
+      "macosIcns",
       "notificationBadge",
       "notificationIcon",
       "serviceWorker",
