@@ -1,0 +1,147 @@
+<svg width="100%" height="100%" viewBox="0 0 6144 9216" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="nostril">
+      <path d="M544,560L544,816L656,760L656,504L544,560Z" style="fill:rgb(90,38,47);"/>
+    </g>
+    <g id="snout">
+      <path d="M128,320L640,64L960,224L448,480L128,320Z" style="fill:rgb(255,179,191);"/>
+      <path d="M448,992L448,480L128,320L128,832L448,992Z" style="fill:rgb(255,127,148);"/>
+      <path d="M448,992L960,736L960,224L448,480L448,992Z" style="fill:rgb(255,151,168);"/>
+      <use href="#nostril" transform="translate(216,-108)" />
+      <use href="#nostril" transform="translate(16,-8)" />
+    </g>
+  </defs>
+  <g transform="translate(-448,-480)">
+    <use href="#snout" transform="translate(321,673)" />
+    <use href="#snout" transform="translate(833,-95)" />
+    <use href="#snout" transform="translate(1153,577)" />
+    <use href="#snout" transform="translate(641,1345)" />
+    <use href="#snout" transform="translate(1473,1249)" />
+    <use href="#snout" transform="translate(-191,1441)" />
+    <use href="#snout" transform="translate(-511,769)" />
+    <use href="#snout" transform="translate(1,1)" />
+    <use href="#snout" transform="translate(1665,-191)" />
+    <use href="#snout" transform="translate(3137,1057)" />
+    <use href="#snout" transform="translate(3649,289)" />
+    <use href="#snout" transform="translate(3969,961)" />
+    <use href="#snout" transform="translate(3457,1729)" />
+    <use href="#snout" transform="translate(4289,1633)" />
+    <use href="#snout" transform="translate(2625,1825)" />
+    <use href="#snout" transform="translate(2305,1153)" />
+    <use href="#snout" transform="translate(2817,385)" />
+    <use href="#snout" transform="translate(4481,193)" />
+    <use href="#snout" transform="translate(1985,481)" />
+    <use href="#snout" transform="translate(2497,-287)" />
+    <use href="#snout" transform="translate(3329,-383)" />
+    <use href="#snout" transform="translate(4161,-479)" />
+    <use href="#snout" transform="translate(769,3457)" />
+    <use href="#snout" transform="translate(1281,2689)" />
+    <use href="#snout" transform="translate(1601,3361)" />
+    <use href="#snout" transform="translate(1089,4129)" />
+    <use href="#snout" transform="translate(1921,4033)" />
+    <use href="#snout" transform="translate(257,4225)" />
+    <use href="#snout" transform="translate(-63,3553)" />
+    <use href="#snout" transform="translate(449,2785)" />
+    <use href="#snout" transform="translate(2113,2593)" />
+    <use href="#snout" transform="translate(-383,2881)" />
+    <use href="#snout" transform="translate(129,2113)" />
+    <use href="#snout" transform="translate(961,2017)" />
+    <use href="#snout" transform="translate(1793,1921)" />
+    <use href="#snout" transform="translate(3585,3841)" />
+    <use href="#snout" transform="translate(4097,3073)" />
+    <use href="#snout" transform="translate(4417,3745)" />
+    <use href="#snout" transform="translate(3905,4513)" />
+    <use href="#snout" transform="translate(4737,4417)" />
+    <use href="#snout" transform="translate(3073,4609)" />
+    <use href="#snout" transform="translate(2753,3937)" />
+    <use href="#snout" transform="translate(3265,3169)" />
+    <use href="#snout" transform="translate(4929,2977)" />
+    <use href="#snout" transform="translate(2433,3265)" />
+    <use href="#snout" transform="translate(2945,2497)" />
+    <use href="#snout" transform="translate(3777,2401)" />
+    <use href="#snout" transform="translate(4609,2305)" />
+    <use href="#snout" transform="translate(5633,769)" />
+    <use href="#snout" transform="translate(6145,1)" />
+    <use href="#snout" transform="translate(5953,1441)" />
+    <use href="#snout" transform="translate(5121,1537)" />
+    <use href="#snout" transform="translate(4801,865)" />
+    <use href="#snout" transform="translate(5313,97)" />
+    <use href="#snout" transform="translate(4481,193)" />
+    <use href="#snout" transform="translate(6081,3553)" />
+    <use href="#snout" transform="translate(6401,4225)" />
+    <use href="#snout" transform="translate(5569,4321)" />
+    <use href="#snout" transform="translate(5249,3649)" />
+    <use href="#snout" transform="translate(5761,2881)" />
+    <use href="#snout" transform="translate(4929,2977)" />
+    <use href="#snout" transform="translate(5441,2209)" />
+    <use href="#snout" transform="translate(6273,2113)" />
+    <use href="#snout" transform="translate(65,5665)" />
+    <use href="#snout" transform="translate(577,4897)" />
+    <use href="#snout" transform="translate(897,5569)" />
+    <use href="#snout" transform="translate(385,6337)" />
+    <use href="#snout" transform="translate(1217,6241)" />
+    <use href="#snout" transform="translate(-447,6433)" />
+    <use href="#snout" transform="translate(-255,4993)" />
+    <use href="#snout" transform="translate(1409,4801)" />
+    <use href="#snout" transform="translate(257,4225)" />
+    <use href="#snout" transform="translate(1089,4129)" />
+    <use href="#snout" transform="translate(2881,6049)" />
+    <use href="#snout" transform="translate(3393,5281)" />
+    <use href="#snout" transform="translate(3713,5953)" />
+    <use href="#snout" transform="translate(3201,6721)" />
+    <use href="#snout" transform="translate(4033,6625)" />
+    <use href="#snout" transform="translate(2369,6817)" />
+    <use href="#snout" transform="translate(2049,6145)" />
+    <use href="#snout" transform="translate(2561,5377)" />
+    <use href="#snout" transform="translate(4225,5185)" />
+    <use href="#snout" transform="translate(1729,5473)" />
+    <use href="#snout" transform="translate(2241,4705)" />
+    <use href="#snout" transform="translate(3073,4609)" />
+    <use href="#snout" transform="translate(3905,4513)" />
+    <use href="#snout" transform="translate(513,8449)" />
+    <use href="#snout" transform="translate(1025,7681)" />
+    <use href="#snout" transform="translate(1345,8353)" />
+    <use href="#snout" transform="translate(833,9121)" />
+    <use href="#snout" transform="translate(1665,9025)" />
+    <use href="#snout" transform="translate(1,9217)" />
+    <use href="#snout" transform="translate(-319,8545)" />
+    <use href="#snout" transform="translate(193,7777)" />
+    <use href="#snout" transform="translate(1857,7585)" />
+    <use href="#snout" transform="translate(-127,7105)" />
+    <use href="#snout" transform="translate(705,7009)" />
+    <use href="#snout" transform="translate(1537,6913)" />
+    <use href="#snout" transform="translate(3329,8833)" />
+    <use href="#snout" transform="translate(3841,8065)" />
+    <use href="#snout" transform="translate(4161,8737)" />
+    <use href="#snout" transform="translate(3649,9505)" />
+    <use href="#snout" transform="translate(4481,9409)" />
+    <use href="#snout" transform="translate(2817,9601)" />
+    <use href="#snout" transform="translate(2497,8929)" />
+    <use href="#snout" transform="translate(3009,8161)" />
+    <use href="#snout" transform="translate(4673,7969)" />
+    <use href="#snout" transform="translate(2177,8257)" />
+    <use href="#snout" transform="translate(2689,7489)" />
+    <use href="#snout" transform="translate(3521,7393)" />
+    <use href="#snout" transform="translate(4353,7297)" />
+    <use href="#snout" transform="translate(5377,5761)" />
+    <use href="#snout" transform="translate(5889,4993)" />
+    <use href="#snout" transform="translate(6209,5665)" />
+    <use href="#snout" transform="translate(5697,6433)" />
+    <use href="#snout" transform="translate(4865,6529)" />
+    <use href="#snout" transform="translate(4545,5857)" />
+    <use href="#snout" transform="translate(5057,5089)" />
+    <use href="#snout" transform="translate(4225,5185)" />
+    <use href="#snout" transform="translate(4737,4417)" />
+    <use href="#snout" transform="translate(5569,4321)" />
+    <use href="#snout" transform="translate(6401,4225)" />
+    <use href="#snout" transform="translate(5825,8545)" />
+    <use href="#snout" transform="translate(6337,7777)" />
+    <use href="#snout" transform="translate(6145,9217)" />
+    <use href="#snout" transform="translate(5313,9313)" />
+    <use href="#snout" transform="translate(4993,8641)" />
+    <use href="#snout" transform="translate(5505,7873)" />
+    <use href="#snout" transform="translate(4673,7969)" />
+    <use href="#snout" transform="translate(5185,7201)" />
+    <use href="#snout" transform="translate(6017,7105)" />
+  </g>
+</svg>

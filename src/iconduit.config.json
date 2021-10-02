@@ -1,0 +1,42 @@
+{
+  "outputPath": "../dist",
+  "name": "Snout",
+  "description": "Snout Router",
+  "urls": {
+    "base": "https://snout.dev"
+  },
+  "colors": {
+    "background": "hsl(350, 100%, 65%)",
+    "brand": "hsl(350, 100%, 85%)"
+  },
+  "targets": {
+    "installer": [],
+    "os": []
+  },
+  "outputs": {
+    "exclude": [
+      "browserconfigXml",
+      "facebookAppIcon",
+      "notificationBadge",
+      "notificationIcon",
+      "serviceWorker",
+      "webAppIconMaskable",
+      "webAppIconMasked",
+      "webAppManifest",
+      "windowsTileLarge",
+      "windowsTileMedium",
+      "windowsTileSmall",
+      "windowsTileWide"
+    ]
+  },
+  "definitions": {
+    "input": {
+      "githubAccountIcon": {
+        "strategy": "degrade",
+        "options": {
+          "to": "iconMaskableNoPadding"
+        }
+      }
+    }
+  }
+}

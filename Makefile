@@ -1,7 +1,6 @@
-JS_SOURCE_FILES += $(shell find src -type f -iname "*.ts" 2> /dev/null)
-_JS_TEST_ASSETS := $(shell find test -type f -not -iname "*.ts" 2> /dev/null)
+SOURCE_FILES += $(shell find src -type f 2> /dev/null)
 
-JS_SIZE_LIMIT_REQ += dist
+.DEFAULT_GOAL := dist
 
 ################################################################################
 
@@ -14,13 +13,9 @@ JS_SIZE_LIMIT_REQ += dist
 
 ################################################################################
 
-.PHONY: website-%
-website-%:
-	$(MAKE) -C website "$*"
+dist: src/iconduit.config.json node_modules $(SOURCE_FILES)
+	@rm -rf "$@"
 
-################################################################################
-
-dist: rollup.config.js tsconfig.json node_modules $(JS_SOURCE_FILES)
-	node_modules/.bin/rollup --config rollup.config.js
+	node_modules/.bin/iconduit "$<"
 
 	@touch "$@"

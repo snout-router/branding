@@ -1,19 +1,16 @@
 {
-  "name": "@snout/GITHUB_REPO_NAME",
+  "name": "@snout/branding",
   "version": "0.0.0",
-  "description": "REPLACE_ME",
-  "repository": "snout-router/GITHUB_REPO_NAME",
-  "bugs": "https://github.com/snout-router/GITHUB_REPO_NAME/issues",
-  "homepage": "https://snout.dev/GITHUB_REPO_NAME",
+  "description": "Branding assets for Snout",
+  "repository": "snout-router/branding",
+  "bugs": "https://github.com/snout-router/branding/issues",
+  "homepage": "https://snout.dev",
   "author": "Erin Millard <ezzatron@gmail.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "typings": "dist/index.d.ts",
-  "sideEffects": false,
+  "main": "dist/iconduit.consumer.js",
   "files": [
     "/dist/"
   ],
@@ -21,25 +18,12 @@
     "node": ">=14"
   },
   "scripts": {
-    "prepare": "rollup --config rollup.config.js",
-    "size-limit-build": "rollup --config rollup.config.js",
-    "size-limit-clean": "rm -rf dist"
+    "prepare": "iconduit src/iconduit.config.json"
+  },
+  "dependencies": {
+    "@iconduit/consumer": "^0.4.1"
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^5.0.3",
-    "@snout/eslint-config": "^2.0.0",
-    "@snout/jest-config": "^1.0.2",
-    "@snout/rollup-config": "^1.1.2",
-    "@snout/tsconfig": "^1.0.3",
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
-    "codecov": "^3.0.2",
-    "eslint": "^7.21.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "size-limit": "^5.0.3",
-    "typescript": "^4.2.3"
+    "@iconduit/iconduit": "^0.3.1"
   }
 }
