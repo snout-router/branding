@@ -1,7 +1,5 @@
 SOURCE_FILES += $(shell find src -type f 2> /dev/null)
 
-.DEFAULT_GOAL := dist
-
 ################################################################################
 
 -include .makefiles/Makefile
@@ -12,6 +10,8 @@ SOURCE_FILES += $(shell find src -type f 2> /dev/null)
 	@curl -sfL https://makefiles.dev/v1 | bash /dev/stdin "$@"
 
 ################################################################################
+
+.DEFAULT_GOAL := dist
 
 dist: src/iconduit.config.json node_modules $(SOURCE_FILES)
 	@rm -rf "$@"
