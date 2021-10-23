@@ -18,7 +18,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "prepare": "iconduit src/iconduit.config.json"
+    "prepublishOnly": "iconduit src/iconduit.config.json"
   },
   "dependencies": {
     "@iconduit/consumer": "^0.4.1"
