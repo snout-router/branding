@@ -1,5 +1,5 @@
 {
-  "outputPath": "../dist",
+  "outputPath": "../artifacts/dist",
   "name": "Snout",
   "description": "Snout Router",
   "urls": {

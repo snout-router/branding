@@ -10,9 +10,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/iconduit.consumer.js",
+  "main": "artifacts/dist/iconduit.consumer.js",
   "files": [
-    "/dist/"
+    "/artifacts/dist/"
   ],
   "engines": {
     "node": ">=14"

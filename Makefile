@@ -1,7 +1,3 @@
-SOURCE_FILES += $(shell find src -type f 2> /dev/null)
-
-################################################################################
-
 -include .makefiles/Makefile
 -include .makefiles/pkg/js/v1/Makefile
 -include .makefiles/pkg/js/v1/with-yarn.mk
@@ -11,11 +7,11 @@ SOURCE_FILES += $(shell find src -type f 2> /dev/null)
 
 ################################################################################
 
-.DEFAULT_GOAL := dist
+.DEFAULT_GOAL := artifacts/dist
 
-dist: src/iconduit.config.json node_modules $(SOURCE_FILES)
+artifacts/dist: node_modules $(JS_SOURCE_FILES)
 	@rm -rf "$@"
 
-	node_modules/.bin/iconduit "$<"
+	node_modules/.bin/iconduit src/iconduit.config.json
 
 	@touch "$@"
