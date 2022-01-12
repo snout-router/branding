@@ -24,6 +24,6 @@
     "@iconduit/consumer": "^0.4.1"
   },
   "devDependencies": {
-    "@iconduit/iconduit": "^0.5.1"
+    "@iconduit/iconduit": "^0.6.0"
   }
 }

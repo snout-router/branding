@@ -29,42 +29,6 @@
       "windowsTileMedium",
       "windowsTileSmall",
       "windowsTileWide"
-    ],
-    "include": [
-      "githubAppIcon"
     ]
-  },
-  "definitions": {
-    "input": {
-      "githubAccountIcon": {
-        "strategy": "degrade",
-        "options": {
-          "to": "iconMaskableNoPadding"
-        }
-      },
-      "githubAppIcon": {
-        "strategy": "composite",
-        "options": {
-          "layers": [
-            {"input": "iconForeground", "style": "githubAppIconScale"}
-          ]
-        }
-      }
-    },
-    "output": {
-      "githubAppIcon": {
-        "input": "githubAppIcon",
-        "name": "github-app-icon.png",
-        "sizes": ["githubAccountIcon"]
-      }
-    },
-    "style": {
-      "githubAppIconScale": {
-        "transform": "scale(calc(108 / 52))"
-      }
-    },
-    "size": {
-      "githubAccountIcon": {"key": "primary", "width": 1024, "height": 1024}
-    }
   }
 }
