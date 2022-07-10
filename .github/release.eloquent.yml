@@ -1,0 +1,4 @@
+assets:
+  - path: artifacts/dist.zip
+    name: snout.branding.zip
+    label: Snout branding assets

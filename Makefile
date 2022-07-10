@@ -7,7 +7,17 @@
 
 ################################################################################
 
-.DEFAULT_GOAL := artifacts/dist
+.DEFAULT_GOAL := release
+
+.PHONY: release
+release: artifacts/dist.zip
+
+################################################################################
+
+artifacts/dist.zip: artifacts/dist
+	@mkdir -p "$(@D)"
+
+	zip -j -r - "$<" > "$@"
 
 artifacts/dist: node_modules $(JS_SOURCE_FILES)
 	@rm -rf "$@"
