@@ -19,9 +19,9 @@ artifacts/dist.zip: artifacts/dist
 
 	zip -j -r - "$<" > "$@"
 
-artifacts/dist: node_modules $(JS_SOURCE_FILES)
+artifacts/dist: artifacts/link-dependencies.touch $(JS_SOURCE_FILES)
 	@rm -rf "$@"
 
-	node_modules/.bin/iconduit src/iconduit.config.json
+	$(JS_EXEC) iconduit src/iconduit.config.json
 
 	@touch "$@"
