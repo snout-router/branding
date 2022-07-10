@@ -8,7 +8,7 @@
 ## Usage
 
 ```js
-const consumer = require('@snout/branding')
+const consumer = require("@snout/branding");
 
-const faviconPath = consumer.absoluteImagePath('faviconIco', 'container')
+const faviconPath = consumer.absoluteImagePath("faviconIco", "container");
 ```
