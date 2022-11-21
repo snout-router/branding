@@ -24,7 +24,7 @@
     "@iconduit/consumer": "^0.4.1"
   },
   "devDependencies": {
-    "@iconduit/iconduit": "^0.7.0",
+    "@iconduit/iconduit": "^0.8.0",
     "prettier": "^2.7.1"
   }
 }
