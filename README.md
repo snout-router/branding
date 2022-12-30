@@ -4,7 +4,7 @@
 [![Download][badge-download-image]][badge-download-link]
 [![Build status][badge-build-image]][badge-build-link]
 
-[badge-build-image]: https://img.shields.io/github/workflow/status/snout-router/branding/CI?style=for-the-badge
+[badge-build-image]: https://img.shields.io/github/actions/workflow/status/snout-router/branding/ci.yml?branch=main&style=for-the-badge
 [badge-build-link]: https://github.com/snout-router/branding/actions/workflows/ci.yml
 [badge-download-image]: https://img.shields.io/github/downloads/snout-router/branding/latest/snout.branding.zip?sort=semver&style=for-the-badge&color=%2345cc11
 [badge-download-link]: https://github.com/snout-router/branding/releases/latest/download/snout.branding.zip
